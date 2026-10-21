@@ -9,8 +9,8 @@
 Registrar las evidencias de clase: practicas, tareas y proyectos desarrollados del curso.
 
 ## Estructura de Carpetas
-* practicas/: Almacenar los ejercicios y pequeñas prácticas realizadas durante las sesiones de clase.
-* proyectos/: Contiene los proyectos integradores y entregables principales del curso.
+* practicass/: Almacenar los ejercicios y pequeñas prácticas realizadas durante las sesiones de clase.
+* proyectoss/: Contiene los proyectos integradores y entregables principales del curso.
 * README.md: Archivo de documentación con la información general del repositorio.
 * .gitignore: Configuración para evitar subir archivos temporales del sistema u herramientas.
 
