@@ -1,0 +1,29 @@
+import time
+
+Vidas = 2
+Puntos = 0
+backdrop = "underwater1"
+for counter in range(2):
+  answer = input ("¿Quien escribio la novela "Veinte mil leguas de Viaje Submarino"?)
+    if answer == "A":
+       print ("¡CORRECTO!")
+          time.sleep(3)
+          Puntos = Puntos +1
+          print ("¡FIN DEL JUEGO!")
+          time.sleep(2)
+          break
+    else:
+        print("¡INCORRECTO!")
+        backdrop = "underwater2"
+        Vidas = Vidas -1
+        time.sleep(4)
+        if Vidas == 1:
+            print("¡ÚLTIMA OPORTUNIDAD!")
+            backdrop = "underwater1"
+        else:
+        print("¡FIN DEL JUEGO!")
+        backdrop = "underwater2"
+        break
+          
+          
+  

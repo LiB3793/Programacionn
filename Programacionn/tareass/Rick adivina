@@ -1,0 +1,20 @@
+import random
+
+# 1. Elegir número aleatorio (como el bloque 'número aleatorio entre 1 y 10')
+numero_secreto = random.randint(1, 10)
+respuesta = 0
+
+# 2. Bucle (equivalente al 'repetir hasta que respuesta = numero_secreto')
+while respuesta != numero_secreto:
+    # Preguntar al usuario (equivalente a 'preguntar y esperar')
+    respuesta = int(input("¿Qué número estoy pensando? "))
+
+    # Comprobar el número
+    if respuesta < numero_secreto:
+        print("Es mayor")
+    elif respuesta > numero_secreto:
+        print("Es menor")
+
+# 3. Al salir del bucle (cuando acierta)
+print("¡Wubba lubba dub dub!... Correcto... Adivinaste.")
+
