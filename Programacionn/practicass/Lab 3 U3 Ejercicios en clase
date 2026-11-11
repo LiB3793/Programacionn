@@ -5,8 +5,8 @@
 
 clave = ""
 #while clave != "Nunu123":
-    #clave = input("Ingrese la clave: ")        
-#print("Clave correcta")
+    #clave = input("Ingrese la contraseña: ")        
+#print("Contraseña correcta")
 
 #while True:
    #print("se ejecuta al menos una vez")
